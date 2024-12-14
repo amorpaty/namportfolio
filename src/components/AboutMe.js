@@ -27,12 +27,12 @@ function AboutMe() {
                         Here's who I am & what I do
                     </p>
                     <div>
-                        <Link to="/resume">
+                        <Link to="/Resume">
                             <button className="bg-blue-600 text-white px-4 md:px-6 py-2 rounded-lg mr-2 md:mr-4 hover:bg-blue-700">
                                 RESUME
                             </button>
                         </Link>
-                        <Link to="/projects">
+                        <Link to="/Projects">
                             <button className="border border-gray-800 text-gray-800 px-4 md:px-6 py-2 rounded-lg hover:bg-gray-800 hover:text-white">
                                 PROJECTS
                             </button>
