@@ -11,9 +11,9 @@ function App() {
         <Router>
             <Header /> {/* 헤더를 항상 표시하려면 여기 추가 */}
             <Routes>
-                <Route path="/aboutMe" element={<AboutMe />} />
-                <Route path="/resume" element={<Resume />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route path="/namportfolio.github.io/aboutMe" element={<AboutMe />} />
+                <Route path="/namportfolio.github.io/resume" element={<Resume />} />
+                <Route path="/namportfolio.github.io/projects" element={<Projects />} />
 
                 <Route path="*" element={<AboutMe />} />
                 {/*<Route path="/resume" element={<Resume />} />*/}

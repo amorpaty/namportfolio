@@ -8,7 +8,7 @@ function AboutMe() {
                 {/* 왼쪽 프로필 카드 */}
                 <div className="w-full md:w-1/3 bg-[#FFE761] flex flex-col items-center justify-center p-6">
                     <img
-                        src="../images/me.jpg"
+                        src="/namportfolio.github.io/images/me.jpg"
                         alt="profile"
                         className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mb-4"
                     />
