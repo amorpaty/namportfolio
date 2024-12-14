@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amorpaty/namportfolio.github.io/static/css/main.dd140bcb.css",
+    "main.js": "/amorpaty/namportfolio.github.io/static/js/main.bd0e1002.js",
+    "static/js/453.420acfe6.chunk.js": "/amorpaty/namportfolio.github.io/static/js/453.420acfe6.chunk.js",
+    "index.html": "/amorpaty/namportfolio.github.io/index.html",
+    "main.dd140bcb.css.map": "/amorpaty/namportfolio.github.io/static/css/main.dd140bcb.css.map",
+    "main.bd0e1002.js.map": "/amorpaty/namportfolio.github.io/static/js/main.bd0e1002.js.map",
+    "453.420acfe6.chunk.js.map": "/amorpaty/namportfolio.github.io/static/js/453.420acfe6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd140bcb.css",
+    "static/js/main.bd0e1002.js"
+  ]
+}
