@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
 function AboutMe() {
     return (
@@ -26,16 +27,16 @@ function AboutMe() {
                         Here's who I am & what I do
                     </p>
                     <div>
-                        <a href="/namportfolio.github.io/resume">
+                        <Link to="/resume">
                             <button className="bg-blue-600 text-white px-4 md:px-6 py-2 rounded-lg mr-2 md:mr-4 hover:bg-blue-700">
                                 RESUME
                             </button>
-                        </a>
-                        <a href="/namportfolio.github.io/projects">
+                        </Link>
+                        <Link to="/projects">
                             <button className="border border-gray-800 text-gray-800 px-4 md:px-6 py-2 rounded-lg hover:bg-gray-800 hover:text-white">
                                 PROJECTS
                             </button>
-                        </a>
+                        </Link>
                     </div>
                     <p className="text-gray-500 mt-4 md:mt-6 text-sm md:text-base">
                         I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click

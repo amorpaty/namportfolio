@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false); // 메뉴 상태 관리
@@ -7,8 +8,7 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     };
 
-    return (
-        <header className="fixed top-0 left-0 w-full flex justify-between items-center py-4 px-6 bg-white shadow-md z-10">
+    return (<header className="fixed top-0 left-0 w-full flex justify-between items-center py-4 px-6 bg-white shadow-md z-10">
             {/* 왼쪽 프로필 정보 */}
             <div className="flex items-center space-x-2">
                 {/* 블루 네모 아이콘 */}
@@ -17,25 +17,25 @@ const Header = () => {
                 <h1 className="text-lg md:text-xl font-bold text-gray-900">
                     Nam Eun Ju
                     <span className="text-black-800 font-normal text-xs md:text-sm ml-2">
-                      / Full Stack Developer
-                    </span>
+                  / Full Stack Developer
+                </span>
                 </h1>
             </div>
 
             {/* 네비게이션 메뉴 (데스크탑) */}
             <nav className="hidden md:flex space-x-6">
-                <a href="/namportfolio.github.io/aboutMe" className="text-blue-600 font-medium hover:underline">
+                <Link to="/aboutMe" className="text-blue-600 font-medium hover:underline">
                     ABOUT ME
-                </a>
-                <a href="/namportfolio.github.io/resume" className="text-gray-800 font-medium hover:underline">
+                </Link>
+                <Link to="/resume" className="text-gray-800 font-medium hover:underline">
                     RESUME
-                </a>
-                <a href="/namportfolio.github.io/projects" className="text-gray-800 font-medium hover:underline">
+                </Link>
+                <Link to="/projects" className="text-gray-800 font-medium hover:underline">
                     PROJECTS
-                </a>
-                <a href="/namportfolio.github.io/contact" className="text-gray-800 font-medium hover:underline">
+                </Link>
+                <Link to="/contact" className="text-gray-800 font-medium hover:underline">
                     CONTACT
-                </a>
+                </Link>
             </nav>
 
             {/* 햄버거 메뉴 버튼 (모바일용) */}

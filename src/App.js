@@ -8,14 +8,13 @@ import Projects from "./components/Projects";
 
 function App() {
     return (
-        <Router>
+        <Router basename="/namportfolio.github.io">
             <Header /> {/* 헤더를 항상 표시하려면 여기 추가 */}
             <Routes>
-                <Route path="/namportfolio.github.io/aboutMe" element={<AboutMe />} />
-                <Route path="/namportfolio.github.io/resume" element={<Resume />} />
-                <Route path="/namportfolio.github.io/projects" element={<Projects />} />
-
-                <Route path="*" element={<AboutMe />} />
+                <Route path="/aboutMe" element={<AboutMe />} />
+                <Route path="/resume" element={<Resume />} />
+                <Route path="/projects" element={<Projects />} />
+                {/*<Route path="/" element={<AboutMe />} />*/}
                 {/*<Route path="/resume" element={<Resume />} />*/}
             </Routes>
         </Router>
