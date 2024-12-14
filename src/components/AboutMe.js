@@ -1,108 +1,50 @@
 import React, {useState} from 'react';
-import Lightbox from "react-image-lightbox";
 
-function Avator() {
-    const [isOpen, setIsOpen] = useState(false);
-
+function AboutMe() {
     return (
-        <div className="relative p-4 m-4 bg-yellow-400 dark:bg-gray-800 rounded-2xl h-md" >
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
-                <div className="lg:col-start-2 md:pl-20">
-                    <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
-                        About me
-                    </h4>
-                    <ul className="mt-10">
-                        <li>
-                            <div className="flex">
-                                <div className="flex-shrink-0">
-                                    <div
-                                        className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                        <svg width="20" height="20" fill="currentColor" className="w-6 h-6"
-                                             viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div className="ml-4">
-                                    <h5 className="text-lg font-bold leading-6 text-gray-900 dark:text-white">
-                                        One-look dashboard
-                                    </h5>
-                                    <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
-                                        Know everything about your business in a single glance with your new dashboard.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="mt-10">
-                            <div className="flex">
-                                <div className="flex-shrink-0">
-                                    <div
-                                        className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                        <svg width="20" height="20" fill="currentColor" className="w-6 h-6"
-                                             viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div className="ml-4">
-                                    <h5 className="text-lg font-bold leading-6 text-gray-900 dark:text-white">
-                                        Orders, managed
-                                    </h5>
-                                    <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
-                                        All your orders in one place so you can manage your delivery, collection, asap
-                                        and pre-orders in one place.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="mt-10">
-                            <div className="flex">
-                                <div className="flex-shrink-0">
-                                    <div
-                                        className="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
-                                        <svg width="20" height="20" fill="currentColor" className="w-6 h-6"
-                                             viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div className="ml-4">
-                                    <h5 className="text-lg font-bold leading-6 text-gray-900 dark:text-white">
-                                        Email &amp; SMS Notifications
-                                    </h5>
-                                    <p className="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
-                                        Never miss a new order with notifications via your dashboard, by sound, and to
-                                        your email and phone.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div className="relative mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
+        <div className="flex justify-center items-center min-h-screen bg-[#FFDA05] p-4">
+            {/* 메인 카드 */}
+            <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-5xl min-h-[400px]"> {/* 여기에서 min-h 값을 조정 */}
+                {/* 왼쪽 프로필 카드 */}
+                <div className="w-full md:w-1/3 bg-[#FFE761] flex flex-col items-center justify-center p-6">
                     <img
                         src="/images/me.jpg"
-                        alt="illustration"
-                        className="relative w-auto mx-auto rounded shadow-lg cursor-pointer"
-                        onClick={() => setIsOpen(true)} // 클릭하면 Lightbox 열림
+                        alt="profile"
+                        className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mb-4"
                     />
+                    <h1 className="text-lg md:text-xl font-bold text-gray-800">Nam Eun Ju</h1>
+                    <div className="w-20 h-1 bg-blue-600 my-6"></div>
+                    <p className="text-sm md:text-lg text-black-700 mt-1 tracking-widest">
+                        Full Stack Developer
+                    </p>
+                </div>
+
+                {/* 오른쪽 헤더와 내용 */}
+                <div className="w-full md:w-2/3 p-6 md:p-8 flex flex-col justify-center">
+                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">Hello</h1>
+                    <p className="text-sm md:text-lg text-gray-600 mb-4 md:mb-6">
+                        Here's who I am & what I do
+                    </p>
+                    <div>
+                        <a href="/resume">
+                            <button className="bg-blue-600 text-white px-4 md:px-6 py-2 rounded-lg mr-2 md:mr-4 hover:bg-blue-700">
+                                RESUME
+                            </button>
+                        </a>
+                        <a href="/projects">
+                            <button className="border border-gray-800 text-gray-800 px-4 md:px-6 py-2 rounded-lg hover:bg-gray-800 hover:text-white">
+                                PROJECTS
+                            </button>
+                        </a>
+                    </div>
+                    <p className="text-gray-500 mt-4 md:mt-6 text-sm md:text-base">
+                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click
+                        “Edit Text” or double click me to add your own content and make changes to the font.
+                    </p>
                 </div>
             </div>
-            {isOpen && (
-                <Lightbox
-                    mainSrc="/images/me.jpg"
-                    onCloseRequest={() => setIsOpen(false)} // 닫기
-                    wrapperClassName="bg-black bg-opacity-75 p-4 rounded-lg flex w-full h-full items-center justify-center"
-                />
-            )}
         </div>
     );
 }
 
-export default Avator;
+export default AboutMe;
