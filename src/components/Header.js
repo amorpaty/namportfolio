@@ -24,16 +24,16 @@ const Header = () => {
 
             {/* 네비게이션 메뉴 (데스크탑) */}
             <nav className="hidden md:flex space-x-6">
-                <a href="/about" className="text-blue-600 font-medium hover:underline">
+                <a href="/namportfolio.github.io/aboutMe" className="text-blue-600 font-medium hover:underline">
                     ABOUT ME
                 </a>
-                <a href="/resume" className="text-gray-800 font-medium hover:underline">
+                <a href="/namportfolio.github.io/resume" className="text-gray-800 font-medium hover:underline">
                     RESUME
                 </a>
-                <a href="/projects" className="text-gray-800 font-medium hover:underline">
+                <a href="/namportfolio.github.io/projects" className="text-gray-800 font-medium hover:underline">
                     PROJECTS
                 </a>
-                <a href="/contact" className="text-gray-800 font-medium hover:underline">
+                <a href="/namportfolio.github.io/contact" className="text-gray-800 font-medium hover:underline">
                     CONTACT
                 </a>
             </nav>

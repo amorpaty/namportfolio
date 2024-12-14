@@ -8,7 +8,7 @@ function AboutMe() {
                 {/* 왼쪽 프로필 카드 */}
                 <div className="w-full md:w-1/3 bg-[#FFE761] flex flex-col items-center justify-center p-6">
                     <img
-                        src="/images/me.jpg"
+                        src="../images/me.jpg"
                         alt="profile"
                         className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mb-4"
                     />
@@ -26,12 +26,12 @@ function AboutMe() {
                         Here's who I am & what I do
                     </p>
                     <div>
-                        <a href="/resume">
+                        <a href="/namportfolio.github.io/resume">
                             <button className="bg-blue-600 text-white px-4 md:px-6 py-2 rounded-lg mr-2 md:mr-4 hover:bg-blue-700">
                                 RESUME
                             </button>
                         </a>
-                        <a href="/projects">
+                        <a href="/namportfolio.github.io/projects">
                             <button className="border border-gray-800 text-gray-800 px-4 md:px-6 py-2 rounded-lg hover:bg-gray-800 hover:text-white">
                                 PROJECTS
                             </button>
