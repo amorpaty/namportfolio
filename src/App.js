@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-import { HashRouter  as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 
@@ -14,7 +14,7 @@ function App() {
                 <Route path="/AboutMe" element={<AboutMe />} />
                 <Route path="/Resume" element={<Resume />} />
                 <Route path="/Projects" element={<Projects />} />
-                {/*<Route path="/" element={<AboutMe />} />*/}
+                <Route path="/" element={<AboutMe />} />
                 {/*<Route path="/resume" element={<Resume />} />*/}
             </Routes>
         </Router>
