@@ -24,6 +24,23 @@
   color: white;
 }
 
+/* 스크롤바 숨기기 (크로스 브라우징 지원) */
+
+/* 크롬, 사파리, 엣지 */
+::-webkit-scrollbar {
+  display: none; /* 스크롤바 숨기기 */
+}
+
+/* 파이어폭스 */
+html {
+  scrollbar-width: none; /* 스크롤바 너비를 없앰 */
+}
+
+/* IE, Edge 구버전 (선택사항) */
+body {
+  -ms-overflow-style: none; /* 스크롤바 숨기기 */
+}
+
 .App-link {
   color: #61dafb;
 }

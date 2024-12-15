@@ -24,16 +24,16 @@ const Header = () => {
 
             {/* 네비게이션 메뉴 (데스크탑) */}
             <nav className="hidden md:flex space-x-6">
-                <Link to="/AboutMe" className="text-blue-600 font-medium hover:underline">
+                <Link to="/aboutMe" className="text-blue-600 font-medium hover:underline">
                     ABOUT ME
                 </Link>
-                <Link to="/Resume" className="text-gray-800 font-medium hover:underline">
+                <Link to="/resume" className="text-gray-800 font-medium hover:underline">
                     RESUME
                 </Link>
-                <Link to="/Projects" className="text-gray-800 font-medium hover:underline">
+                <Link to="/projects" className="text-gray-800 font-medium hover:underline">
                     PROJECTS
                 </Link>
-                <Link to="/Contact" className="text-gray-800 font-medium hover:underline">
+                <Link to="/contact" className="text-gray-800 font-medium hover:underline">
                     CONTACT
                 </Link>
             </nav>
@@ -69,30 +69,18 @@ const Header = () => {
                 } md:hidden`}
             >
                 <nav className="flex flex-col items-center space-y-4 py-6">
-                    <a
-                        href="#about"
-                        className="text-blue-600 font-medium hover:underline"
-                    >
+                    <Link to="/aboutMe" className="text-blue-600 font-medium hover:underline">
                         ABOUT ME
-                    </a>
-                    <a
-                        href="#resume"
-                        className="text-gray-800 font-medium hover:underline"
-                    >
+                    </Link>
+                    <Link to="/resume" className="text-gray-800 font-medium hover:underline">
                         RESUME
-                    </a>
-                    <a
-                        href="#projects"
-                        className="text-gray-800 font-medium hover:underline"
-                    >
+                    </Link>
+                    <Link to="/projects" className="text-gray-800 font-medium hover:underline">
                         PROJECTS
-                    </a>
-                    <a
-                        href="#contact"
-                        className="text-gray-800 font-medium hover:underline"
-                    >
+                    </Link>
+                    <Link to="/contact" className="text-gray-800 font-medium hover:underline">
                         CONTACT
-                    </a>
+                    </Link>
                 </nav>
             </div>
         </header>
