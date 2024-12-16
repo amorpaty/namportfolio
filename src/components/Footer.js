@@ -10,10 +10,6 @@ const Footer = () => {
                         Powered and secured by Github
                     </p>
                 </div>
-                <div className="text-center ml-auto">
-                    <div className="font-semibold">Write</div>
-                    <p className="text-gray-600 hover:text-blue-500">ehdrmfkal0624@naver.com</p>
-                </div>
 
                 <div className="flex space-x-4">
                     <a href="#" aria-label="Facebook" className="text-gray-600 hover:text-blue-500">

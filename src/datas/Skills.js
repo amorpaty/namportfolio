@@ -1,99 +1,99 @@
 export const skills = [
     {
         skillName : 'Spring Framework',
-        image : '/images/logo/springframework-logo.png'
+        image : '/namportfolio.github.io/images/logo/springframework-logo.png'
     },
     {
         skillName : 'SpringBoot',
-        image : '/images/logo/springboot-logo.png'
+        image : '/namportfolio.github.io/images/logo/springboot-logo.png'
     },
     {
         skillName : 'JPA',
-        image : '/images/logo/jpa-logo.png'
+        image : '/namportfolio.github.io/images/logo/jpa-logo.png'
     },
     {
         skillName : 'java',
-        image : '/images/logo/java-logo.png'
+        image : '/namportfolio.github.io/images/logo/java-logo.png'
     },
     {
         skillName : 'VaillaJs',
-        image : '/images/logo/JavaScript-logo.png'
+        image : '/namportfolio.github.io/images/logo/JavaScript-logo.png'
     },
     {
         skillName : 'jQuery',
-        image : '/images/logo/jquery-logo.png'
+        image : '/namportfolio.github.io/images/logo/jquery-logo.png'
     },
     {
         skillName : 'ReactJs',
-        image : '/images/logo/react-logo.png'
+        image : '/namportfolio.github.io/images/logo/react-logo.png'
     },
     {
         skillName : 'VueJs',
-        image : '/images/logo/vue-logo.png'
+        image : '/namportfolio.github.io/images/logo/vue-logo.png'
     },
     {
         skillName : 'typescript',
-        image : '/images/logo/typescript-logo.png'
+        image : '/namportfolio.github.io/images/logo/typescript-logo.png'
     },
     {
         skillName : 'thymeleaf',
-        image : '/images/logo/thymeleaf-logo.png'
+        image : '/namportfolio.github.io/images/logo/thymeleaf-logo.png'
     },
     {
         skillName : 'OracleDB',
-        image : '/images/logo/oracle-logo.png'
+        image : '/namportfolio.github.io/images/logo/oracle-logo.png'
     },
     {
         skillName : 'PostgreSQL',
-        image : '/images/logo/postgresql-logo.png'
+        image : '/namportfolio.github.io/images/logo/postgresql-logo.png'
     },
     {
         skillName : 'MySQL',
-        image : '/images/logo/mysql-logo.png'
+        image : '/namportfolio.github.io/images/logo/mysql-logo.png'
     },
     {
         skillName : 'MariaDB',
-        image : '/images/logo/mariadb-logo.png'
+        image : '/namportfolio.github.io/images/logo/mariadb-logo.png'
     },
     {
         skillName : 'supabase',
-        image : '/images/logo/supabase-logo.png'
+        image : '/namportfolio.github.io/images/logo/supabase-logo.png'
     },
     {
         skillName : 'github',
-        image : '/images/logo/github-logo.png'
+        image : '/namportfolio.github.io/images/logo/github-logo.png'
     },
     {
         skillName : 'gitLab',
-        image : '/images/logo/gitlab-logo.png'
+        image : '/namportfolio.github.io/images/logo/gitlab-logo.png'
     },
     {
         skillName : 'JSP',
-        image : '/images/logo/jsp-logo.png'
+        image : '/namportfolio.github.io/images/logo/jsp-logo.png'
     },
     {
         skillName : 'HTML5',
-        image : '/images/logo/html5-logo.png'
+        image : '/namportfolio.github.io/images/logo/html5-logo.png'
     },
     {
         skillName : 'CSS3',
-        image : '/images/logo/css3-logo.png'
+        image : '/namportfolio.github.io/images/logo/css3-logo.png'
     },
     {
         skillName : 'tailwind',
-        image : '/images/logo/tailwind-logo.png'
+        image : '/namportfolio.github.io/images/logo/tailwind-logo.png'
     },
     {
         skillName : 'Postman',
-        image : '/images/logo/postman-logo.png'
+        image : '/namportfolio.github.io/images/logo/postman-logo.png'
     },
     {
         skillName : 'RestAPI',
-        image : '/images/logo/restapi-logo.png'
+        image : '/namportfolio.github.io/images/logo/restapi-logo.png'
     },
     {
         skillName : 'Figma',
-        image : '/images/logo/Figma-logo.svg'
+        image : '/namportfolio.github.io/images/logo/Figma-logo.svg'
     },
 ]
 
