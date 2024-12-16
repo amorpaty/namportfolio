@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/namportfolio.github.io/static/css/main.93986568.css",
-    "main.js": "/namportfolio.github.io/static/js/main.98ea3a33.js",
+    "main.css": "/namportfolio.github.io/static/css/main.b289149f.css",
+    "main.js": "/namportfolio.github.io/static/js/main.1b790a3a.js",
     "static/js/453.420acfe6.chunk.js": "/namportfolio.github.io/static/js/453.420acfe6.chunk.js",
     "index.html": "/namportfolio.github.io/index.html",
-    "main.93986568.css.map": "/namportfolio.github.io/static/css/main.93986568.css.map",
-    "main.98ea3a33.js.map": "/namportfolio.github.io/static/js/main.98ea3a33.js.map",
+    "main.b289149f.css.map": "/namportfolio.github.io/static/css/main.b289149f.css.map",
+    "main.1b790a3a.js.map": "/namportfolio.github.io/static/js/main.1b790a3a.js.map",
     "453.420acfe6.chunk.js.map": "/namportfolio.github.io/static/js/453.420acfe6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93986568.css",
-    "static/js/main.98ea3a33.js"
+    "static/css/main.b289149f.css",
+    "static/js/main.1b790a3a.js"
   ]
 }
