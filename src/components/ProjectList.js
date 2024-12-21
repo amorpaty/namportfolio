@@ -1,34 +1,36 @@
 import React from "react";
+import { motion } from 'framer-motion';
 import {projects} from "../datas/Projects";
+import {sideProjects} from "../datas/SideProjects";
 import ProjectItem from "./ProjectItem";
 
 function ProjectList(){
     return (
-        <div className="p-12 m-4 mt-20 bg-white rounded-2xl">
-            <div className="flex items-end justify-between mb-8 header">
-                <div className="title">
-                    <p className="mb-4 text-4xl font-bold text-gray-800">
-                        Projects
-                    </p>
+        <>
+            <motion.div
+                className="p-12 m-4 mt-20 bg-white rounded-2xl"
+                initial={{ opacity: 0, y: 20 }} // 시작 상태
+                animate={{ opacity: 1, y: 0 }}  // 애니메이션 완료 상태
+                transition={{ duration: 0.8, ease: "easeOut" }} // 애니메이션 속도 및 방식
+            >
+                <div className="flex items-end justify-between mb-8 header">
+                    <div className="title">
+                        <p className="mb-4 text-4xl font-bold text-gray-800">
+                            Projects
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <ProjectItem projects={projects}></ProjectItem>
-            <div className="flex items-end justify-between mb-8 header">
-                <div className="title">
-                    <p className="mb-4 text-4xl font-bold text-gray-800">
-                        Side-Project
-                    </p>
+                <ProjectItem projects={projects}></ProjectItem>
+                <div className="flex items-end justify-between mb-8 header">
+                    <div className="title">
+                        <p className="mb-4 text-4xl font-bold text-gray-800">
+                            Side-Project
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <ProjectItem></ProjectItem>
-            <div className="grid gap-12 md:grid-cols-2 xl:grid-cols-3">
-                {/*<ProjectItem></ProjectItem>*/}
-                {/*<ProjectItem></ProjectItem>*/}
-                {/*<ProjectItem></ProjectItem>*/}
-                {/*<ProjectItem></ProjectItem>*/}
-                {/*<ProjectItem></ProjectItem>*/}
-            </div>
-        </div>
+                <ProjectItem projects={sideProjects}></ProjectItem>
+            </motion.div>
+        </>
     );
 };
 

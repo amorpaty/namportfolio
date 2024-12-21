@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
 import Lightbox from "react-image-lightbox";
 import ProjectList from "./ProjectList";
+import SkillList from "./SkillList";
 
 function Projects() {
     return (
-        <div className="flex justify-center items-center min-h-screen bg-[#FFDA05] p-4">
+        <div className="flex grid justify-center items-center min-h-screen bg-[#FFDA05] p-4">
             <ProjectList></ProjectList>
+            <SkillList></SkillList>
         </div>
     );
 }

@@ -31,7 +31,7 @@ const Header = () => {
                     RESUME
                 </Link>
                 <Link to="/projects" className="text-gray-800 font-medium hover:underline">
-                    PROJECTS
+                    PROJECTS/SKILLS
                 </Link>
                 <Link to="/contact" className="text-gray-800 font-medium hover:underline">
                     CONTACT
@@ -76,7 +76,7 @@ const Header = () => {
                         RESUME
                     </Link>
                     <Link to="/projects" className="text-gray-800 font-medium hover:underline">
-                        PROJECTS
+                        PROJECTS/SKILLS
                     </Link>
                     <Link to="/contact" className="text-gray-800 font-medium hover:underline">
                         CONTACT
