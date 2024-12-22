@@ -4,10 +4,10 @@ import {educations} from "../datas/Educations";
 function EducationItem() {
     return (
         <>
-            <div className="w-2/3 mx-auto mt-3 mb-16">
-                <h3 className="text-3xl font-bold mb-12">Education</h3>
+            <div className="w-full max-w-6xl mx-auto mt-3 mb-16 flex items-center">
+                <h3 className="text-3xl font-bold">Education</h3>
             </div>
-            <div className="bg-white rounded-lg shadow-lg p-6 w-2/3 mx-auto mb-20">
+            <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-6xl mx-auto mb-20">
                 {educations.map((education, index) => (
                     <div
                         key={index}

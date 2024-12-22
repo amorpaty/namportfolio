@@ -1,50 +1,75 @@
-import React, { useState } from "react";
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import { Link } from "react-router-dom"; // Link 컴포넌트를 사용한다고 가정
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false); // 메뉴 상태 관리
+    const [selectedMenu, setSelectedMenu] = useState("aboutMe"); // 선택된 메뉴 상태
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
 
-    return (<header className="fixed top-0 left-0 w-full flex justify-between items-center py-4 px-6 bg-white shadow-md z-10">
+    const handleMenuClick = (menu) => {
+        setSelectedMenu(menu); // 선택된 메뉴 상태 업데이트
+        setMenuOpen(false); // 모바일 메뉴일 경우 닫기
+    };
+
+    return (
+        <header className="fixed top-0 left-0 w-full flex justify-between items-center py-4 px-6 bg-white shadow-md z-10">
             {/* 왼쪽 프로필 정보 */}
             <div className="flex items-center space-x-2">
-                {/* 블루 네모 아이콘 */}
                 <div className="w-4 h-4 bg-blue-600"></div>
-                {/* 이름과 직책 */}
                 <h1 className="text-lg md:text-xl font-bold text-gray-900">
                     Nam Eun Ju
                     <span className="text-black-800 font-normal text-xs md:text-sm ml-2">
-                  / Full Stack Developer
-                </span>
+                        / Full Stack Developer
+                    </span>
                 </h1>
             </div>
 
             {/* 네비게이션 메뉴 (데스크탑) */}
             <nav className="hidden md:flex space-x-6">
-                <Link to="/aboutMe" className="text-blue-600 font-medium hover:underline">
+                <Link
+                    to="/aboutMe"
+                    onClick={() => handleMenuClick("aboutMe")}
+                    className={`font-medium hover:underline ${
+                        selectedMenu === "aboutMe" ? "text-blue-600" : "text-gray-800"
+                    }`}
+                >
                     ABOUT ME
                 </Link>
-                <Link to="/resume" className="text-gray-800 font-medium hover:underline">
+                <Link
+                    to="/resume"
+                    onClick={() => handleMenuClick("resume")}
+                    className={`font-medium hover:underline ${
+                        selectedMenu === "resume" ? "text-blue-600" : "text-gray-800"
+                    }`}
+                >
                     RESUME
                 </Link>
-                <Link to="/projects" className="text-gray-800 font-medium hover:underline">
+                <Link
+                    to="/projects"
+                    onClick={() => handleMenuClick("projects")}
+                    className={`font-medium hover:underline ${
+                        selectedMenu === "projects" ? "text-blue-600" : "text-gray-800"
+                    }`}
+                >
                     PROJECTS/SKILLS
                 </Link>
-                <Link to="/contact" className="text-gray-800 font-medium hover:underline">
-                    CONTACT
-                </Link>
+                {/*<Link*/}
+                {/*    to="/contact"*/}
+                {/*    onClick={() => handleMenuClick("contact")}*/}
+                {/*    className={`font-medium hover:underline ${*/}
+                {/*        selectedMenu === "contact" ? "text-blue-600" : "text-gray-800"*/}
+                {/*    }`}*/}
+                {/*>*/}
+                {/*    CONTACT*/}
+                {/*</Link>*/}
             </nav>
 
             {/* 햄버거 메뉴 버튼 (모바일용) */}
             <div className="md:hidden">
-                <button
-                    onClick={toggleMenu}
-                    className="text-gray-800 focus:outline-none"
-                >
-                    {/* 햄버거 아이콘 */}
+                <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
                     <svg
                         className="w-6 h-6"
                         fill="none"
@@ -69,18 +94,42 @@ const Header = () => {
                 } md:hidden`}
             >
                 <nav className="flex flex-col items-center space-y-4 py-6">
-                    <Link to="/aboutMe" className="text-blue-600 font-medium hover:underline">
+                    <Link
+                        to="/aboutMe"
+                        onClick={() => handleMenuClick("aboutMe")}
+                        className={`font-medium hover:underline ${
+                            selectedMenu === "aboutMe" ? "text-blue-600" : "text-gray-800"
+                        }`}
+                    >
                         ABOUT ME
                     </Link>
-                    <Link to="/resume" className="text-gray-800 font-medium hover:underline">
+                    <Link
+                        to="/resume"
+                        onClick={() => handleMenuClick("resume")}
+                        className={`font-medium hover:underline ${
+                            selectedMenu === "resume" ? "text-blue-600" : "text-gray-800"
+                        }`}
+                    >
                         RESUME
                     </Link>
-                    <Link to="/projects" className="text-gray-800 font-medium hover:underline">
+                    <Link
+                        to="/projects"
+                        onClick={() => handleMenuClick("projects")}
+                        className={`font-medium hover:underline ${
+                            selectedMenu === "projects" ? "text-blue-600" : "text-gray-800"
+                        }`}
+                    >
                         PROJECTS/SKILLS
                     </Link>
-                    <Link to="/contact" className="text-gray-800 font-medium hover:underline">
-                        CONTACT
-                    </Link>
+                    {/*<Link*/}
+                    {/*    to="/contact"*/}
+                    {/*    onClick={() => handleMenuClick("contact")}*/}
+                    {/*    className={`font-medium hover:underline ${*/}
+                    {/*        selectedMenu === "contact" ? "text-blue-600" : "text-gray-800"*/}
+                    {/*    }`}*/}
+                    {/*>*/}
+                    {/*    CONTACT*/}
+                    {/*</Link>*/}
                 </nav>
             </div>
         </header>

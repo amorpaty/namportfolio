@@ -17,7 +17,7 @@ export const skills = [
     },
     {
         skillName : 'VaillaJs',
-        image : '/namportfolio.github.io/images/logo/JavaScript-logo.png'
+        image : '/namportfolio.github.io/images/logo/javaScript-logo.png'
     },
     {
         skillName : 'jQuery',

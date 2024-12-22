@@ -1,11 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
-import SkillList from "./SkillList";
 import ExperienceItem from "./ExperienceItem";
 import EducationItem from "./EducationItem";
 import CertificationItem from "./CertificationItem";
-
 
 function Resume() {
     return (
@@ -26,7 +24,6 @@ function Resume() {
                 <ExperienceItem></ExperienceItem>
                 <EducationItem></EducationItem>
                 <CertificationItem></CertificationItem>
-                {/*<SkillList />*/}
             </section>
         </motion.div>
     );

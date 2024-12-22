@@ -4,10 +4,10 @@ import {certifications} from "../datas/Certifications";
 function CertificationItem() {
     return (
         <>
-            <div className="w-2/3 mx-auto mt-3 mb-16">
-                <h3 className="text-3xl font-bold mb-12">Certifications</h3>
+            <div className="w-full max-w-6xl mx-auto mt-3 mb-16 flex items-center">
+                <h3 className="text-3xl font-bold">Certifications</h3>
             </div>
-            <div className="bg-white rounded-lg shadow-lg p-6 w-2/3 mx-auto">
+            <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-6xl mx-auto">
                 {certifications.map((cert, index) => (
                     <div
                         key={index}

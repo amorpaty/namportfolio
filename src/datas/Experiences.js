@@ -25,7 +25,7 @@ export const experiences = [
         projects : [
             {
                 id : "",
-                title : "HR 2.0 리뉴얼 프로젝트",
+                title : "HR 2.0 고도화",
                 linkYn : true,
             },
             {
