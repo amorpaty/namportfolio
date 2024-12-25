@@ -13,7 +13,7 @@ function ProjectItem({projects, onProjectClick }){
                     onClick={() => onProjectClick(item)} // 클릭 이벤트 전달
                 >
                     <a className="block w-full h-full">
-                        <img alt="blog photo" src={item.image} className="object-cover w-full max-h-40"/>
+                        {item.image ? <img alt="blog photo" src={item.image} className="object-cover w-full max-h-40"/> : null}
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
                                 {item.title}
