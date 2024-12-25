@@ -30,8 +30,8 @@ export const projects = [
         skillStack : ["HR", "javascript", "JAVA", "Oracle", "MariaDB"],
         skillStackList : ["HR", "javascript", "JAVA", "Oracle", "MariaDB"],
         result : '* 사용자 피드백을 통해 개선 사항의 40% 수용',
-        image : '/namportfolio.github.io/images/projectsPictures/HR2.0_main.jpg',
-        imageList : ["/namportfolio.github.io/images/projectsPictures/HR2.0_main.jpg"],
+        image : '/namportfolio/images/projectsPictures/HR2.0_main.jpg',
+        imageList : ["/namportfolio/images/projectsPictures/HR2.0_main.jpg"],
         categories : [
             {
                 categoryName: "UI/UX 개선",
@@ -54,8 +54,8 @@ export const projects = [
         skillStack : ["B2C", "Vue.js", "Typescript", "Nuxt.js", "Tailwind CSS", "Socket", "RestAPI"],
         skillStackList : ["B2C", "Vue.js", "Typescript", "Nuxt.js", "Tailwind CSS", "Socket", "RestAPI"],
         result : '* 서비스 오픈 / 운영 효율 20% 증가',
-        image : '/namportfolio.github.io/images/projectsPictures/sayclub_main.jpg',
-        imageList : ['/namportfolio.github.io/images/projectsPictures/sayclub_main.jpg'],
+        image : '/namportfolio/images/projectsPictures/sayclub_main.jpg',
+        imageList : ['/namportfolio/images/projectsPictures/sayclub_main.jpg'],
         categories: [
             {
                 categoryName: "방송국 기능",
@@ -94,8 +94,8 @@ export const projects = [
         skillStack : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers"],
         skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers"],
         result : '* GS 인증',
-        image : '/namportfolio.github.io/images/projectsPictures/119platform_main.png',
-        imageList : ['/namportfolio.github.io/images/projectsPictures/119platform_main.png'],
+        image : '/namportfolio/images/projectsPictures/119platform_main.png',
+        imageList : ['/namportfolio/images/projectsPictures/119platform_main.png'],
         categories: [
             {
                 categoryName: "소방시설 정보 처리",
@@ -124,8 +124,8 @@ export const projects = [
         skillStack : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "Socket", "RestAPI"],
         skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "Socket", "RestAPI"],
         result : '* TTA 인증',
-        image : '/namportfolio.github.io/images/projectsPictures/smartcity_main.png',
-        imageList : ['/namportfolio.github.io/images/projectsPictures/smartcity_main.png'],
+        image : '/namportfolio/images/projectsPictures/smartcity_main.png',
+        imageList : ['/namportfolio/images/projectsPictures/smartcity_main.png'],
         categories: [
             {
                 categoryName: "정보 수집 및 실시간 표출",
@@ -167,8 +167,8 @@ export const projects = [
         skillStack : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"],
         skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"],
         result : '* 특허 등록',
-        image : '/namportfolio.github.io/images/projectsPictures/drght_public_main.png',
-        imageList : ['/namportfolio.github.io/images/projectsPictures/drght_public_main.png'],
+        image : '/namportfolio/images/projectsPictures/drght_public_main.png',
+        imageList : ['/namportfolio/images/projectsPictures/drght_public_main.png'],
         categories: [
             {
                 categoryName: "홍수 및 유출 분석",
@@ -197,8 +197,8 @@ export const projects = [
         skillStack : ["JAVA", "JSP", "javascript", "Amchrt.js", "PostgreSQL", "Geoserver", "OpenLayers",],
         skillStackList : ["JAVA", "JSP", "javascript", "Amchrt.js", "PostgreSQL", "Geoserver", "OpenLayers",],
         result : "* 과학기술정보통신부 분석결과 평가회에서 10개 과제 중 '최우수' 등급 선정",
-        image : '/namportfolio.github.io/images/projectsPictures/gamum_main.png',
-        imageList : ['/namportfolio.github.io/images/projectsPictures/gamum_main.png'],
+        image : '/namportfolio/images/projectsPictures/gamum_main.png',
+        imageList : ['/namportfolio/images/projectsPictures/gamum_main.png'],
         categories: [
             {
                 categoryName: "가뭄 정보 제공",

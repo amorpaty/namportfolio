@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <Router basename="/namportfolio.github.io" >
+        <Router basename="/namportfolio" >
             <Header /> {/* 헤더를 항상 표시하려면 여기 추가 */}
             <Routes>
                 <Route path="/aboutMe" element={<AboutMe />} />

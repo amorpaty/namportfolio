@@ -6,9 +6,9 @@ export const sideProjects = [
         skillStack : ["JS ES6", "React", "Famer-motion", "HTML", "Tailwind CSS"],
         skillStackList : ["JS ES6", "React", "Famer-motion", "HTML", "Tailwind CSS"],
         result : '진행 중',
-        image : '/namportfolio.github.io/images/projectsPictures/portfolioSIte.png',
+        image : '/namportfolio/images/projectsPictures/portfolioSIte.png',
         imageList : [
-            '/namportfolio.github.io/images/projectsPictures/portfolioSIte.png',
+            '/namportfolio/images/projectsPictures/portfolioSIte.png',
         ],
         categories: [
             {
@@ -37,9 +37,9 @@ export const sideProjects = [
         skillStack : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API"],
         skillStackList : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API"],
         result : '진행 중',
-        image : '/namportfolio.github.io/images/projectsPictures/sideProject_1.jpg',
+        image : '/namportfolio/images/projectsPictures/sideProject_1.jpg',
         imageList : [
-            '/namportfolio.github.io/images/projectsPictures/sideProject_1.jpg',
+            '/namportfolio/images/projectsPictures/sideProject_1.jpg',
         ],
         categories: [
             {
