@@ -28,8 +28,8 @@ function ProjectItem({projects, onProjectClick }){
                                 {item.result}
                             </p>
                             <div className="flex flex-wrap items-center mt-4 justify-starts">
-                                {item.skillStack.map((skill) => (
-                                    <div className="text-xs mr-2 py-1.5 px-3 text-gray-600 bg-blue-100 rounded-2xl mb-3">
+                                {item.skillStack.map((skill, index) => (
+                                    <div key={index} className="text-xs mr-2 py-1.5 px-3 text-gray-600 bg-blue-100 rounded-2xl mb-3">
                                         #{skill}
                                     </div>
                                 ))}

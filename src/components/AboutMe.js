@@ -40,7 +40,7 @@ function AboutMe() {
                         </Link>
                         <Link to="/projects">
                             <button className="border border-gray-800 text-gray-800 px-4 md:px-6 py-2 rounded-lg hover:bg-gray-800 hover:text-white">
-                                PROJECTS
+                                PROJECTS/SKILLS
                             </button>
                         </Link>
                     </div>

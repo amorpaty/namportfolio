@@ -5,7 +5,7 @@ import { skills } from "../datas/Skills.js";
 function SkillList(){
     return (
         <motion.div
-            className="p-12 m-4  bg-white rounded-2xl"
+            className="p-8 m-4  bg-white rounded-2xl"
             initial={{ opacity: 0, y: 20 }} // 시작 상태
             animate={{ opacity: 1, y: 0 }}  // 애니메이션 완료 상태
             transition={{ duration: 0.8, ease: "easeOut" }} // 애니메이션 속도 및 방식
@@ -17,7 +17,7 @@ function SkillList(){
                     </p>
                 </div>
             </div>
-            <div className="bg-white rounded-lg p-6 md:p-8 mx-auto">
+            <div className="bg-white rounded-lg md:p-4 mx-auto">
 
                 <div className="grid gap-4 grid-cols-4 md:grid-cols-6 xl:grid-cols-12 m-3">
                      {skills.map((item, index) => (

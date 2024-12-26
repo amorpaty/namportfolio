@@ -55,7 +55,11 @@ export const projects = [
         skillStackList : ["B2C", "Vue.js", "Typescript", "Nuxt.js", "Tailwind CSS", "Socket", "RestAPI"],
         result : '* 서비스 오픈 / 운영 효율 20% 증가',
         image : '/namportfolio/images/projectsPictures/sayclub_main.jpg',
-        imageList : ['/namportfolio/images/projectsPictures/sayclub_main.jpg'],
+        imageList : [
+            '/namportfolio/images/projectsPictures/sayclub_main.jpg',
+            '/namportfolio/images/projectsPictures/sayclub_2.jpg',
+            '/namportfolio/images/projectsPictures/sayclub_3.jpg'
+        ],
         categories: [
             {
                 categoryName: "방송국 기능",
@@ -168,7 +172,11 @@ export const projects = [
         skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"],
         result : '* 특허 등록',
         image : '/namportfolio/images/projectsPictures/drght_public_main.png',
-        imageList : ['/namportfolio/images/projectsPictures/drght_public_main.png'],
+        imageList : [
+            '/namportfolio/images/projectsPictures/drght_public_main.png',
+            '/namportfolio/images/projectsPictures/drght_public_2.jpg',
+            '/namportfolio/images/projectsPictures/drght_public_3.jpg',
+        ],
         categories: [
             {
                 categoryName: "홍수 및 유출 분석",
@@ -198,7 +206,10 @@ export const projects = [
         skillStackList : ["JAVA", "JSP", "javascript", "Amchrt.js", "PostgreSQL", "Geoserver", "OpenLayers",],
         result : "* 과학기술정보통신부 분석결과 평가회에서 10개 과제 중 '최우수' 등급 선정",
         image : '/namportfolio/images/projectsPictures/gamum_main.png',
-        imageList : ['/namportfolio/images/projectsPictures/gamum_main.png'],
+        imageList : [
+            '/namportfolio/images/projectsPictures/gamum_main.png',
+            '/namportfolio/images/projectsPictures/gamum_demin_main.png'
+        ],
         categories: [
             {
                 categoryName: "가뭄 정보 제공",

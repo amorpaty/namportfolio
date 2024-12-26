@@ -1,16 +1,15 @@
 import { useState } from "react";
-import { Link } from "react-router-dom"; // Link 컴포넌트를 사용한다고 가정
+import {Link, useLocation} from "react-router-dom"; // Link 컴포넌트를 사용한다고 가정
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false); // 메뉴 상태 관리
-    const [selectedMenu, setSelectedMenu] = useState("aboutMe"); // 선택된 메뉴 상태
+    const location = useLocation(); // 현재 경로 가져오기
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
 
     const handleMenuClick = (menu) => {
-        setSelectedMenu(menu); // 선택된 메뉴 상태 업데이트
         setMenuOpen(false); // 모바일 메뉴일 경우 닫기
     };
 
@@ -33,7 +32,7 @@ const Header = () => {
                     to="/aboutMe"
                     onClick={() => handleMenuClick("aboutMe")}
                     className={`font-medium hover:underline ${
-                        selectedMenu === "aboutMe" ? "text-blue-600" : "text-gray-800"
+                        location.pathname === "/aboutMe" ? "text-blue-600" : "text-gray-800"
                     }`}
                 >
                     ABOUT ME
@@ -42,7 +41,7 @@ const Header = () => {
                     to="/resume"
                     onClick={() => handleMenuClick("resume")}
                     className={`font-medium hover:underline ${
-                        selectedMenu === "resume" ? "text-blue-600" : "text-gray-800"
+                        location.pathname === "/resume" ? "text-blue-600" : "text-gray-800"
                     }`}
                 >
                     RESUME
@@ -51,7 +50,7 @@ const Header = () => {
                     to="/projects"
                     onClick={() => handleMenuClick("projects")}
                     className={`font-medium hover:underline ${
-                        selectedMenu === "projects" ? "text-blue-600" : "text-gray-800"
+                        location.pathname === "/projects" ? "text-blue-600" : "text-gray-800"
                     }`}
                 >
                     PROJECTS/SKILLS
@@ -98,7 +97,7 @@ const Header = () => {
                         to="/aboutMe"
                         onClick={() => handleMenuClick("aboutMe")}
                         className={`font-medium hover:underline ${
-                            selectedMenu === "aboutMe" ? "text-blue-600" : "text-gray-800"
+                            location.pathname === "/aboutMe" ? "text-blue-600" : "text-gray-800"
                         }`}
                     >
                         ABOUT ME
@@ -107,7 +106,7 @@ const Header = () => {
                         to="/resume"
                         onClick={() => handleMenuClick("resume")}
                         className={`font-medium hover:underline ${
-                            selectedMenu === "resume" ? "text-blue-600" : "text-gray-800"
+                            location.pathname === "/resume" ? "text-blue-600" : "text-gray-800"
                         }`}
                     >
                         RESUME
@@ -116,7 +115,7 @@ const Header = () => {
                         to="/projects"
                         onClick={() => handleMenuClick("projects")}
                         className={`font-medium hover:underline ${
-                            selectedMenu === "projects" ? "text-blue-600" : "text-gray-800"
+                            location.pathname === "/projects" ? "text-blue-600" : "text-gray-800"
                         }`}
                     >
                         PROJECTS/SKILLS

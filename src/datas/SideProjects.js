@@ -37,9 +37,10 @@ export const sideProjects = [
         skillStack : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API"],
         skillStackList : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API"],
         result : '진행 중',
-        image : '/namportfolio/images/projectsPictures/sideProject_1.jpg',
+        image : '/namportfolio/images/projectsPictures/sideProject_1.png',
         imageList : [
-            '/namportfolio/images/projectsPictures/sideProject_1.jpg',
+            '/namportfolio/images/projectsPictures/sideProject_1.png',
+            '/namportfolio/images/projectsPictures/sideProject_2.jpg',
         ],
         categories: [
             {

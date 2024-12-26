@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
+import { Navigation, Pagination } from "swiper/modules"; // 모듈 가져오기
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css"; // Swiper CSS
+
 
 function ProjectDetailModal({ project, onClose }) {
 
@@ -50,12 +52,13 @@ function ProjectDetailModal({ project, onClose }) {
                 {/* 이미지 슬라이더 */}
                 <div className="mb-6">
                     <Swiper
+                        modules={[Navigation, Pagination]} // 모듈 등록
                         spaceBetween={10}
                         slidesPerView={1}
-                        navigation
-                        pagination={{ clickable: true }}
+                        navigation // 화살표 활성화
+                        pagination={{ clickable: true }} // 페이지네이션 활성화
                     >
-                        {project.imageList && project.imageList.map((image, index) => (
+                        {project.imageList.map((image, index) => (
                             <SwiperSlide key={index}>
                                 <img
                                     src={image}
