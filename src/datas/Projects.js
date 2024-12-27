@@ -2,33 +2,33 @@ export const projects = [
     {
         title : '이노룰스 BRMS WEB 8.0',
         dates : '2024.12.09 ~ 진행중',
-        dept : 'HR 시스템 사용자 인터페이스 및 기능 개선/추가',
-        skillStack : ["HR", "javascript", "JAVA", "Oracle", "MariaDB"],
-        skillStackList : ["HR", "javascript", "JAVA", "Oracle", "MariaDB"],
-        result : '* 사용자 피드백을 통해 개선 사항의 40% 수용',
+        dept : '디지털 의사결정 자동화 시스템',
+        position : 'Web Front-End Developer',
+        skillStack : ["javascript",  "jQuery", "HTML5", "Typescript", "PostgreSQL"],
+        skillStackList : ["javascript",  "jQuery", "JAVA", "PostgreSQL", "JDBC", "TailwindCSS", "Typescript", "HTML5"],
+        result : '* IT 비전문가도 이해할 수 있는 표현 방식을 사용하여 IT와 비즈니스 간 협업 증진, 개발 기간 단축, 오류의 최소화 달성',
         image : null,
         imageList : [],
         categories : [
             {
-                categoryName: "UI/UX 개선",
-                techImpl: [
-                    "사용자 편의성 개선을 위한 UI/UX 기획",
-                    "인사관리, 조직관리, 급여, 통계, 복리후생 관련 기능의 사용자 니즈에 맞춘 개선",
-                    "최신 트렌드 기반 기능 적용"
-                ]
+                categoryName: "호출 로그 기능 개선",
+                techImpl: []
             }
         ],
         results: [
-            "사용자 만족도 및 업무 효율성 향상",
-            "다양한 사용자 요구사항 반영으로 시스템 접근성 개선"
+            "경쟁사 대비 약 4배 빠른 처리 성능",
+            "높은 확장성과 안정성",
+            "친숙하고 다양한 룰 템플릿과 룰 표현 방법",
+            "기업 내외부의 다른 비즈니스 시스템과의 호환성 확보"
         ]
     },
     {
         title : 'HR 2.0 고도화',
         dates : '2022.12 ~ 2024.07',
         dept : 'HR 시스템 사용자 인터페이스 및 기능 개선/추가',
-        skillStack : ["HR", "javascript", "JAVA", "Oracle", "MariaDB"],
-        skillStackList : ["HR", "javascript", "JAVA", "Oracle", "MariaDB"],
+        position : 'Web Full-Stack Developer',
+        skillStack : ["HR", "javascript", "jQuery", "JAVA", "Oracle", "MariaDB"],
+        skillStackList : ["HR", "javascript", "jQuery", "JAVA", "Oracle", "MariaDB", "thymeleaf"],
         result : '* 사용자 피드백을 통해 개선 사항의 40% 수용',
         image : '/namportfolio/images/projectsPictures/HR2.0_main.jpg',
         imageList : ["/namportfolio/images/projectsPictures/HR2.0_main.jpg"],
@@ -51,8 +51,9 @@ export const projects = [
         title : '세이클럽 리뉴얼 프로젝트',
         dates : '2022.08 ~ 2022.12',
         dept : 'php 기반 플랫폼 JAVA, Vue.js 마이그레이션',
+        position : 'Web Full-Stack Developer',
         skillStack : ["B2C", "Vue.js", "Typescript", "Nuxt.js", "Tailwind CSS", "Socket", "RestAPI"],
-        skillStackList : ["B2C", "Vue.js", "Typescript", "Nuxt.js", "Tailwind CSS", "Socket", "RestAPI"],
+        skillStackList : ["B2C", "Vue.js", "Typescript", "Nuxt.js", "Tailwind CSS", "Socket", "RestAPI", "Oracle"],
         result : '* 서비스 오픈 / 운영 효율 20% 증가',
         image : '/namportfolio/images/projectsPictures/sayclub_main.jpg',
         imageList : [
@@ -93,10 +94,11 @@ export const projects = [
     },
     {
         title : '특정소방대상물 소방시설 평가 플랫폼',
-        dates : '',
+        dates : '2020.05 ~ 2022.05',
         dept : '소방 공무원의 특정소방 대상물에 설치된 소방시설 설치 적적성을 평가하기 위한 플랫폼',
-        skillStack : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers"],
-        skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers"],
+        position : 'Web Full-Stack Developer',
+        skillStack : ["JAVA", "javascript", "thymleaf", "jQuery", "PostgreSQL", "Geoserver", "OpenLayers"],
+        skillStackList : ["JAVA", "javascript", "thymleaf", "jQuery", "PostgreSQL", "Geoserver", "OpenLayers", "FTP", "JSON"],
         result : '* GS 인증',
         image : '/namportfolio/images/projectsPictures/119platform_main.png',
         imageList : ['/namportfolio/images/projectsPictures/119platform_main.png'],
@@ -123,10 +125,11 @@ export const projects = [
     },
     {
         title : '스마트시티 통합 플랫폼',
-        dates : '',
+        dates : '2021.03 ~ 2021.06',
         dept : '플랫폼을 통해 방범, 방재 등에 대한 신속한 상황전파로서 예방 대처 목적',
-        skillStack : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "Socket", "RestAPI"],
-        skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "Socket", "RestAPI"],
+        position : 'Web Full-Stack Developer',
+        skillStack : ["JAVA", "javascript", "thymleaf",  "jQuery","PostgreSQL", "Geoserver", "OpenLayers", "Socket", "RestAPI"],
+        skillStackList : ["JAVA", "javascript", "thymleaf",  "jQuery","PostgreSQL", "Geoserver", "OpenLayers", "Socket", "RestAPI", "JWT", "SpringSecurity", "FTP "],
         result : '* TTA 인증',
         image : '/namportfolio/images/projectsPictures/smartcity_main.png',
         imageList : ['/namportfolio/images/projectsPictures/smartcity_main.png'],
@@ -166,10 +169,12 @@ export const projects = [
     },
     {
         title : '도시하천관리 연계 플랫폼',
-        dates : '',
+        dates : '2020.03 ~ 2020.11',
         dept : '도시하천을 관리하기 위한 연계 플랫폼',
-        skillStack : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"],
-        skillStackList : ["JAVA", "javascript", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"],
+        position : 'Web Full-Stack Developer',
+        skillStack : ["JAVA", "javascript", "thymleaf" , "jQuery", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"],
+        skillStackList : ["JAVA", "javascript", "jQuery", "thymleaf", "PostgreSQL", "Geoserver", "OpenLayers", "OpenAPI", "Python", "SWMM", "HEC-RAS"
+            , "AmChart.js"],
         result : '* 특허 등록',
         image : '/namportfolio/images/projectsPictures/drght_public_main.png',
         imageList : [
@@ -190,6 +195,28 @@ export const projects = [
                 techImpl: [
                     "관측소 자료 조회 및 다운로드 기능 개발"
                 ]
+            },
+            {
+                categoryName: "데이터 시각화",
+                techImpl: [
+                    " PostGIS를 활용하여 하천 유역을 폴리곤 형태로 표현.",
+                    "하천의 특정 영역을 선택하면, Amchart.js를 통해 수위 변화가 시간에 따라 그래프로 표시됨",
+                    "지도에서 유출 정도를 분석해 원활, 주의, 위험으로 구분하고, 점과 \n" +
+                    "선의 색상이 변경되도록 구현",
+                ]
+            },
+            {
+                categoryName: "관리 시스템",
+                techImpl: [
+                    "각 하천 영역을 담당자가 점검하고 평가한 결과를 시스템에서 관리할 수 있도록 제공",
+                ]
+            },
+            {
+                categoryName: "개발 과정에서의 개선",
+                techImpl: [
+                    "화면 표출단에서 흐름(Flow) 개선",
+                    "Flag 활용과 반복적인 함수의 세분화로 코드 최적화 경험",
+                ]
             }
         ],
         results: [
@@ -199,11 +226,12 @@ export const projects = [
     },
     {
         title : '경기도 농업가뭄정보 시스템 / 대민서비스',
-        dates : '',
+        dates : '2019.06 ~ 2019.11',
         dept : '가뭄으로 어려움을 겪는 농민에게 도움이 되기 위한 목적으로 빅데이터 기반으로 제작 경기도에서 주관하여 경기도 내 31내 시군' +
             '의 가뭄을 예측하고 농업 가뭄 관련 정보 제공',
-        skillStack : ["JAVA", "JSP", "javascript", "Amchrt.js", "PostgreSQL", "Geoserver", "OpenLayers",],
-        skillStackList : ["JAVA", "JSP", "javascript", "Amchrt.js", "PostgreSQL", "Geoserver", "OpenLayers",],
+        position : 'Web Full-Stack Developer',
+        skillStack : ["JAVA", "JSP", "javascript", "Amchart.js", "PostgreSQL", "Geoserver", "OpenLayers", "jQuery"],
+        skillStackList : ["JAVA", "JSP", "javascript", "Amchart.js", "PostgreSQL", "Geoserver", "OpenLayers", "jQuery"],
         result : "* 과학기술정보통신부 분석결과 평가회에서 10개 과제 중 '최우수' 등급 선정",
         image : '/namportfolio/images/projectsPictures/gamum_main.png',
         imageList : [

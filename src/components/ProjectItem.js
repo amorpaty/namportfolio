@@ -21,7 +21,7 @@ function ProjectItem({projects, onProjectClick }){
                             <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                                 {item.dates}
                             </p>
-                            <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                            <p className="font-light text-gray-400 dark:text-gray-300 mb-2 text-md">
                                 {item.dept}
                             </p>
                             <p className="font-bold text-indigo-500 text-md">

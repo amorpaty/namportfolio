@@ -1,41 +1,44 @@
 export const sideProjects = [
     {
-        title : '포트폴리트 사이트',
-        dates : '2024.12 ~',
+        title : '포트폴리오 사이트',
+        dates : '2024.12.01 ~ 2024.12.27',
         dept : '나의 포트폴리오 사이트',
+        position : 'Web Front-end Developer',
         skillStack : ["JS ES6", "React", "Famer-motion", "HTML", "Tailwind CSS"],
         skillStackList : ["JS ES6", "React", "Famer-motion", "HTML", "Tailwind CSS"],
-        result : '진행 중',
+        result : '사이트 구축으로 접근성 증대 / 전문성 & 가독성 증대',
         image : '/namportfolio/images/projectsPictures/portfolioSIte.png',
         imageList : [
             '/namportfolio/images/projectsPictures/portfolioSIte.png',
         ],
         categories: [
             {
-                categoryName: "홍수 및 유출 분석",
+                categoryName: "React 활용",
                 techImpl: [
-                    "유역 유출 및 하천 흐름 분석 모듈 개발",
-                    "HEC-RAS 및 SWMM 기반 홍수 및 강우 유출 모델링"
+                    "React 기반 페이지 전환 / Hook 사용 상태 관리",
                 ]
             },
             {
-                categoryName: "데이터 수집 및 처리",
+                categoryName: "Famer-motion 라이브러리",
                 techImpl: [
-                    "관측소 자료 조회 및 다운로드 기능 개발"
+                    "화면 애니메이션 모션 활용"
                 ]
             }
         ],
         results: [
-            "홍수 피해 예방 및 효율적인 하천 관리 가능",
-            "정확한 데이터 분석으로 신속한 대응 시스템 구축"
+            "디지털 시대에 온라인 존재감을 높일 수 있으며, 더 많은 사람들에게 노출 기대",
+            "작업물을 효과적으로 보여줄 수 있어, 전문성 강조 및 가독성 상승"
         ]
     },
     {
         title : '유일무이 프로젝트 (WEB, APP)',
         dates : '2024.06 ~ 2024.11',
         dept : '취향에 맞는 카페 수집, 방문 기록을 남겨 나만의 카페를 관리하는 서비스',
+        position : 'Web Full-Stack Developer',
         skillStack : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API"],
-        skillStackList : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API"],
+        skillStackList : ["JPA", "Supabase", "React-Native", "React", "TypeScript", "salanium", "크롤링", "Open API", "카카오/구글 로그인 연동",
+            "구글 지도 연동"
+        ],
         result : '진행 중',
         image : '/namportfolio/images/projectsPictures/sideProject_1.png',
         imageList : [
@@ -81,8 +84,7 @@ export const sideProjects = [
             }
         ],
         results: [
-            "홍수 피해 예방 및 효율적인 하천 관리 가능",
-            "정확한 데이터 분석으로 신속한 대응 시스템 구축"
+            "",
         ]
     },
 ]

@@ -72,6 +72,9 @@ function ProjectDetailModal({ project, onClose }) {
 
                 {/* 프로젝트 정보 */}
                 <div className="mb-6">
+                    <p className="text-red-700 text-2xl	font-bold mb-2">
+                        {project.position}
+                    </p>
                     <p className="text-gray-700 mb-2">
                         <span className="font-semibold text-gray-900">기간:</span> {project.dates}
                     </p>
@@ -86,7 +89,7 @@ function ProjectDetailModal({ project, onClose }) {
                         기술 스택
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                        {project.skillStack.map((skill, index) => (
+                        {project.skillStackList.map((skill, index) => (
                             <span
                                 key={index}
                                 className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm"
