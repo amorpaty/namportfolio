@@ -7,7 +7,7 @@ function ExperienceItem() {
 
     const handleProjectClick = (project) => {
         // 페이지 이동과 함께 데이터 전달
-        navigate("/projects", { state: { project } });
+        navigate("/projects/skills", { state: { project } });
     };
 
     return (

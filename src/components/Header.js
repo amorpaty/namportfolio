@@ -18,12 +18,17 @@ const Header = () => {
             {/* 왼쪽 프로필 정보 */}
             <div className="flex items-center space-x-2">
                 <div className="w-4 h-4 bg-blue-600"></div>
-                <h1 className="text-lg md:text-xl font-bold text-gray-900">
-                    Nam Eun Ju
-                    <span className="text-black-800 font-normal text-xs md:text-sm ml-2">
-                        / Full Stack Developer
-                    </span>
-                </h1>
+                <Link
+                    to="/aboutMe"
+                    onClick={() => handleMenuClick("aboutMe")}
+                 >
+                    <h1 className="text-lg md:text-xl font-bold text-gray-900 hover">
+                        Nam Eun Ju
+                        <span className="text-black-800 font-normal text-xs md:text-sm ml-2">
+                            / Full Stack Developer
+                        </span>
+                    </h1>
+                </Link>
             </div>
 
             {/* 네비게이션 메뉴 (데스크탑) */}
@@ -48,22 +53,13 @@ const Header = () => {
                 </Link>
                 <Link
                     to="/projects"
-                    onClick={() => handleMenuClick("projects")}
+                    onClick={() => handleMenuClick("projects/skills")}
                     className={`font-medium hover:underline ${
                         location.pathname === "/projects" ? "text-blue-600" : "text-gray-800"
                     }`}
                 >
                     PROJECTS/SKILLS
                 </Link>
-                {/*<Link*/}
-                {/*    to="/contact"*/}
-                {/*    onClick={() => handleMenuClick("contact")}*/}
-                {/*    className={`font-medium hover:underline ${*/}
-                {/*        selectedMenu === "contact" ? "text-blue-600" : "text-gray-800"*/}
-                {/*    }`}*/}
-                {/*>*/}
-                {/*    CONTACT*/}
-                {/*</Link>*/}
             </nav>
 
             {/* 햄버거 메뉴 버튼 (모바일용) */}
@@ -113,7 +109,7 @@ const Header = () => {
                     </Link>
                     <Link
                         to="/projects"
-                        onClick={() => handleMenuClick("projects")}
+                        onClick={() => handleMenuClick("projects/skills")}
                         className={`font-medium hover:underline ${
                             location.pathname === "/projects" ? "text-blue-600" : "text-gray-800"
                         }`}

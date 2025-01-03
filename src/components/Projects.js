@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Lightbox from "react-image-lightbox";
 import ProjectList from "./ProjectList";
 import SkillList from "./SkillList";
 
