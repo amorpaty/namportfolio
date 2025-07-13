@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/namportfolio/static/css/main.63c3ae9a.css",
-    "main.js": "/namportfolio/static/js/main.f942fe84.js",
+    "main.css": "/namportfolio/static/css/main.8083551e.css",
+    "main.js": "/namportfolio/static/js/main.7a183950.js",
     "static/js/453.420acfe6.chunk.js": "/namportfolio/static/js/453.420acfe6.chunk.js",
+    "static/media/main_logo.png": "/namportfolio/static/media/main_logo.9fb76400cda28ea54288.png",
     "index.html": "/namportfolio/index.html",
-    "main.63c3ae9a.css.map": "/namportfolio/static/css/main.63c3ae9a.css.map",
-    "main.f942fe84.js.map": "/namportfolio/static/js/main.f942fe84.js.map",
+    "main.8083551e.css.map": "/namportfolio/static/css/main.8083551e.css.map",
+    "main.7a183950.js.map": "/namportfolio/static/js/main.7a183950.js.map",
     "453.420acfe6.chunk.js.map": "/namportfolio/static/js/453.420acfe6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c3ae9a.css",
-    "static/js/main.f942fe84.js"
+    "static/css/main.8083551e.css",
+    "static/js/main.7a183950.js"
   ]
 }
