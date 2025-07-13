@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Link, useLocation} from "react-router-dom"; // Link 컴포넌트를 사용한다고 가정
+import { Link, useLocation } from "react-router-dom"; // Link 컴포넌트를 사용한다고 가정
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false); // 메뉴 상태 관리
@@ -21,7 +21,7 @@ const Header = () => {
                 <Link
                     to="/aboutMe"
                     onClick={() => handleMenuClick("aboutMe")}
-                 >
+                >
                     <h1 className="text-lg md:text-xl font-bold text-gray-900 hover">
                         Nam Eun Ju
                         <span className="text-black-800 font-normal text-xs md:text-sm ml-2">
@@ -36,27 +36,24 @@ const Header = () => {
                 <Link
                     to="/aboutMe"
                     onClick={() => handleMenuClick("aboutMe")}
-                    className={`font-medium hover:underline ${
-                        location.pathname === "/aboutMe" ? "text-blue-600" : "text-gray-800"
-                    }`}
+                    className={`font-medium hover:underline ${location.pathname === "/aboutMe" ? "text-blue-600" : "text-gray-800"
+                        }`}
                 >
                     ABOUT ME
                 </Link>
                 <Link
                     to="/resume"
                     onClick={() => handleMenuClick("resume")}
-                    className={`font-medium hover:underline ${
-                        location.pathname === "/resume" ? "text-blue-600" : "text-gray-800"
-                    }`}
+                    className={`font-medium hover:underline ${location.pathname === "/resume" ? "text-blue-600" : "text-gray-800"
+                        }`}
                 >
                     RESUME
                 </Link>
                 <Link
-                    to="/projects"
+                    to="/projects/skills"
                     onClick={() => handleMenuClick("projects/skills")}
-                    className={`font-medium hover:underline ${
-                        location.pathname === "/projects" ? "text-blue-600" : "text-gray-800"
-                    }`}
+                    className={`font-medium hover:underline ${location.pathname === "/projects/skills" ? "text-blue-600" : "text-gray-800"
+                        }`}
                 >
                     PROJECTS/SKILLS
                 </Link>
@@ -84,35 +81,31 @@ const Header = () => {
 
             {/* 모바일 메뉴 */}
             <div
-                className={`absolute top-16 left-0 w-full bg-white shadow-md transition-all duration-500 ease-in-out transform ${
-                    menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
-                } md:hidden`}
+                className={`absolute top-16 left-0 w-full bg-white shadow-md transition-all duration-500 ease-in-out transform ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
+                    } md:hidden`}
             >
                 <nav className="flex flex-col items-center space-y-4 py-6">
                     <Link
                         to="/aboutMe"
                         onClick={() => handleMenuClick("aboutMe")}
-                        className={`font-medium hover:underline ${
-                            location.pathname === "/aboutMe" ? "text-blue-600" : "text-gray-800"
-                        }`}
+                        className={`font-medium hover:underline ${location.pathname === "/aboutMe" ? "text-blue-600" : "text-gray-800"
+                            }`}
                     >
                         ABOUT ME
                     </Link>
                     <Link
                         to="/resume"
                         onClick={() => handleMenuClick("resume")}
-                        className={`font-medium hover:underline ${
-                            location.pathname === "/resume" ? "text-blue-600" : "text-gray-800"
-                        }`}
+                        className={`font-medium hover:underline ${location.pathname === "/resume" ? "text-blue-600" : "text-gray-800"
+                            }`}
                     >
                         RESUME
                     </Link>
                     <Link
-                        to="/projects"
+                        to="/projects/skills"
                         onClick={() => handleMenuClick("projects/skills")}
-                        className={`font-medium hover:underline ${
-                            location.pathname === "/projects" ? "text-blue-600" : "text-gray-800"
-                        }`}
+                        className={`font-medium hover:underline ${location.pathname === "/projects/skills" ? "text-blue-600" : "text-gray-800"
+                            }`}
                     >
                         PROJECTS/SKILLS
                     </Link>

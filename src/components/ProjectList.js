@@ -1,12 +1,12 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from 'framer-motion';
-import {projects} from "../datas/Projects";
-import {sideProjects} from "../datas/SideProjects";
+import { projects } from "../datas/Projects";
+import { sideProjects } from "../datas/SideProjects";
 import ProjectItem from "./ProjectItem";
 import ProjectDetailModal from "./ProjectDetailModal";
-import {useLocation, useNavigate} from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
-function ProjectList(){
+function ProjectList() {
 
     const location = useLocation(); // 전달받은 state 접근
     const selectProject = location.state?.project; // 전달받은 프로젝트 데이터
@@ -14,7 +14,7 @@ function ProjectList(){
     const [selectedProject, setSelectedProject] = useState(null); // 선택된 프로젝트
     const [isModalOpen, setIsModalOpen] = useState(false); // 모달 상태
 
-   // useEffect로 selectProject 값이 있을 때 모달을 열기
+    // useEffect로 selectProject 값이 있을 때 모달을 열기
     useEffect(() => {
         if (selectProject) {
             // 프로젝트가 `projects` 또는 `sideProjects`에 있는지 확인

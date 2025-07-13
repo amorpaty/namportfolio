@@ -4,11 +4,12 @@ import { OrbitControls } from '@react-three/drei';
 import { Points, PointMaterial } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
 import { TextureLoader } from 'three';
+import mainLogo from '../assets/logo/main_logo.png';
 import { useNavigate } from 'react-router-dom';
 
 const BusinessCard = () => {
     const cardRef = useRef();
-    const logoTexture = useLoader(TextureLoader, 'images/logo/main_logo.png');
+    const logoTexture = useLoader(TextureLoader, mainLogo);
     const navigate = useNavigate();
 
     // 명함 회전 로직
