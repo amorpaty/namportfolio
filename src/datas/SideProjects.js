@@ -1,6 +1,6 @@
 export const sideProjects = [
     {
-<<<<<<< HEAD
+
         title: '카공로그',
         dates: '2026.06 ~ 진행중',
         dept: '카페 공부 기록 및 성장 패턴 분석 서비스',
@@ -112,8 +112,8 @@ export const sideProjects = [
         ]
     },
     {
-=======
->>>>>>> 7ed0599c05e221c89315975f2dde294eecdd197f
+
+
         title : '포트폴리오 사이트',
         dates : '2024.12.01 ~ 2024.12.27',
         dept : '나의 포트폴리오 사이트',

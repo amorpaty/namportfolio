@@ -2,11 +2,11 @@ export const experiences = [
     {
         company : '이노룰스',
         dates : '2024.12.09  ~ 재직중',
-<<<<<<< HEAD
+
         position : "WEB Full-stack Engineer",
-=======
+
         position : "WEB Front Engineer",
->>>>>>> 7ed0599c05e221c89315975f2dde294eecdd197f
+
         grade: "기술연구소 BRMS팀 선임",
         desc : '디지털 의사결정 자동화 시스템, \n' +
             '디지털 의사결정 자동화 시스템(DDM; Digital Decision Manager)은 기업 내 분산되어 ' +
@@ -14,14 +14,14 @@ export const experiences = [
         projects : [
             {
                 id : "",
-<<<<<<< HEAD
+
                 title : "흥국화재 Next Core 시스템 구축",
                 linkYn : true,
             },
             {
                 id : "",
-=======
->>>>>>> 7ed0599c05e221c89315975f2dde294eecdd197f
+
+
                 title : "이노룰스 BRMS WEB 8.0",
                 linkYn : true,
             }

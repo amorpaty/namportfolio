@@ -1,6 +1,6 @@
 export const projects = [
     {
-<<<<<<< HEAD
+
         title: '흥국화재 Next Core 시스템 구축',
         dates: '2026.01 ~ 진행중',
         dept: '흥국화재 Next Core 시스템 구축',
@@ -128,7 +128,7 @@ export const projects = [
                     "MES에서 SCM 동기화 시 사용자 알림 기능 추가",
                     "SSO 로그인 기능 개발"
                 ]
-=======
+
         title : '이노룰스 BRMS WEB 8.0',
         dates : '2024.12.09 ~ 진행중',
         dept : '디지털 의사결정 자동화 시스템',
@@ -142,7 +142,7 @@ export const projects = [
             {
                 categoryName: "호출 로그 기능 개선",
                 techImpl: []
->>>>>>> 7ed0599c05e221c89315975f2dde294eecdd197f
+
             }
         ],
         results: [
