@@ -128,29 +128,8 @@ export const projects = [
                     "MES에서 SCM 동기화 시 사용자 알림 기능 추가",
                     "SSO 로그인 기능 개발"
                 ]
-
-        title : '이노룰스 BRMS WEB 8.0',
-        dates : '2024.12.09 ~ 진행중',
-        dept : '디지털 의사결정 자동화 시스템',
-        position : 'Web Front-End Developer',
-        skillStack : ["javascript",  "jQuery", "HTML5", "Typescript", "PostgreSQL"],
-        skillStackList : ["javascript",  "jQuery", "JAVA", "PostgreSQL", "JDBC", "TailwindCSS", "Typescript", "HTML5"],
-        result : '* IT 비전문가도 이해할 수 있는 표현 방식을 사용하여 IT와 비즈니스 간 협업 증진, 개발 기간 단축, 오류의 최소화 달성',
-        image : null,
-        imageList : [],
-        categories : [
-            {
-                categoryName: "호출 로그 기능 개선",
-                techImpl: []
-
-            }
-        ],
-        results: [
-            "경쟁사 대비 약 4배 빠른 처리 성능",
-            "높은 확장성과 안정성",
-            "친숙하고 다양한 룰 템플릿과 룰 표현 방법",
-            "기업 내외부의 다른 비즈니스 시스템과의 호환성 확보"
-        ]
+            },
+        ]        
     },
     {
         title : 'HR 2.0 고도화',
