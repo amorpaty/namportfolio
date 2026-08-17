@@ -1,5 +1,6 @@
 export const projects = [
     {
+<<<<<<< HEAD
         title: '흥국화재 Next Core 시스템 구축',
         dates: '2026.01 ~ 진행중',
         dept: '흥국화재 Next Core 시스템 구축',
@@ -127,6 +128,21 @@ export const projects = [
                     "MES에서 SCM 동기화 시 사용자 알림 기능 추가",
                     "SSO 로그인 기능 개발"
                 ]
+=======
+        title : '이노룰스 BRMS WEB 8.0',
+        dates : '2024.12.09 ~ 진행중',
+        dept : '디지털 의사결정 자동화 시스템',
+        position : 'Web Front-End Developer',
+        skillStack : ["javascript",  "jQuery", "HTML5", "Typescript", "PostgreSQL"],
+        skillStackList : ["javascript",  "jQuery", "JAVA", "PostgreSQL", "JDBC", "TailwindCSS", "Typescript", "HTML5"],
+        result : '* IT 비전문가도 이해할 수 있는 표현 방식을 사용하여 IT와 비즈니스 간 협업 증진, 개발 기간 단축, 오류의 최소화 달성',
+        image : null,
+        imageList : [],
+        categories : [
+            {
+                categoryName: "호출 로그 기능 개선",
+                techImpl: []
+>>>>>>> 7ed0599c05e221c89315975f2dde294eecdd197f
             }
         ],
         results: [
